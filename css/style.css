@@ -1,7 +1,16 @@
 body{background: #15161a;}
 .filter-invert{filter: invert(1);}
+.w-100px{width: 100px !important;}
+.py-100{padding: 100px 0px;}
+.text-light{color: #8b8e92 !important;}
 #theme-banner-one .main-wrapper{padding: 50px 0px 240px}
+.theme-main-menu.fixed{background: #15161a;}
+.solid-inner-banner, .solid-inner-banner .page-breadcrumbs{background: #15161a;}
+.solid-inner-banner .page-breadcrumbs{border-bottom: 1px solid #192123;}
+.solid-inner-banner .page-title{color: #ffffff;}
+
+
 /*mobile only*/
 @media only screen and (max-width: 600px) {
 	#theme-banner-one .main-wrapper{padding: 45px 0px}
-}	
+}
