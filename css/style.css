@@ -8,6 +8,14 @@ body{background: #15161a;}
 .solid-inner-banner, .solid-inner-banner .page-breadcrumbs{background: #15161a;}
 .solid-inner-banner .page-breadcrumbs{border-bottom: 1px solid #192123;}
 .solid-inner-banner .page-title{color: #ffffff;}
+#contact-form .form-group textarea{height: 110px;}
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{color: #FF3A46;}
+.text-theme{color: #FF3A46 !important;}
+.service-title a{color: #fff !important;}
+li .contact-us {background: #ff3a46;color:  #fff;}
+#theme-banner-one .main-wrapper .main-title{font-size: 60px;}
+#theme-banner-one{background: none !important;}
+
 
 
 /*mobile only*/
