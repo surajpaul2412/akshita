@@ -1,18 +1,20 @@
-body{background: #15161a;}
+body{background: #232835;}
 .filter-invert{filter: invert(1);}
 .w-100px{width: 100px !important;}
 .py-100{padding: 100px 0px;}
 .text-light{color: #8b8e92 !important;}
 #theme-banner-one .main-wrapper{padding: 50px 0px 240px}
-.theme-main-menu.fixed{background: #15161a;}
-.solid-inner-banner, .solid-inner-banner .page-breadcrumbs{background: #15161a;}
+.theme-main-menu.fixed{background: #232835;}
+.solid-inner-banner, .solid-inner-banner .page-breadcrumbs{background: #232835;}
 .solid-inner-banner .page-breadcrumbs{border-bottom: 1px solid #192123;}
 .solid-inner-banner .page-title{color: #ffffff;}
 #contact-form .form-group textarea{height: 110px;}
-.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{color: #FF3A46;}
-.text-theme{color: #FF3A46 !important;}
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{color: #34d0d0;}
+.more-button{background: #34d0d0 !important;border:  2px solid #34d0d0 !important;}
+.text-theme, .number{color: #34d0d0 !important;}
+.active a, a:hover, .upper-title{color: #34d0d0 !important;}
 .service-title a{color: #fff !important;}
-li .contact-us {background: #ff3a46;color:  #fff;}
+li .contact-us, .theme-button-two {background: #34d0d0 !important;color:  #fff;}
 #theme-banner-one .main-wrapper .main-title{font-size: 60px;}
 #theme-banner-one{background: none !important;}
 
