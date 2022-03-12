@@ -1,5 +1,5 @@
-body{background: #232835;}
-.filter-invert{filter: invert(1);}
+body{background: #fff;}
+.filter-invert{filter: invert(0);}
 .w-100px{width: 100px !important;}
 .py-100{padding: 100px 0px;}
 .text-light{color: #8b8e92 !important;}
@@ -9,18 +9,37 @@ body{background: #232835;}
 .solid-inner-banner .page-breadcrumbs{border-bottom: 1px solid #192123;}
 .solid-inner-banner .page-title{color: #ffffff;}
 #contact-form .form-group textarea{height: 110px;}
-.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{color: #34d0d0;}
-.more-button{background: #34d0d0 !important;border:  2px solid #34d0d0 !important;}
-.text-theme, .number{color: #34d0d0 !important;}
-.active a, a:hover, .upper-title{color: #34d0d0 !important;}
-.service-title a{color: #fff !important;}
-li .contact-us, .theme-button-two {background: #34d0d0 !important;color:  #fff;}
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{color: #33cccc;}
+.more-button{background: #232835 !important;border:  2px solid #232835 !important;}
+.text-theme, .number{color: #33cccc !important;}
+.active a, a:hover, .upper-title{color: #33cccc !important;}
+li .contact-us {background: #33cccc !important;color:  #fff;}
+.theme-button-two{background: #232835 !important;}
+li .contact-us:hover{color: #232835 !important;}
+.contact-address-two{padding: 0px 0 150px}
 #theme-banner-one .main-wrapper .main-title{font-size: 60px;}
 #theme-banner-one{background: none !important;}
-
-
-
+.theme-footer-one{background: #002060;}
+.text-black{color: #002060 !important;}
+.our-service .service-block .service-title a{color: #33cccc !important;}
+.service-title{color: #33cccc !important;font-weight: 600;}
+.service-minimal .row [class*="col-"]{padding: 0 40px;}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{font-family: 'FontAwesome' !important;}
+.flaticon-back:before{content: "\f104";}.flaticon-next:before{content: "\f105";}
+.contact-us-section{background: #33cccc;}
+.agn-counter-section{margin: 200px 0 50px;}
+.phone, .email{color: #fff !important;}
+.theme-footer-one .top-footer .footer-information ul li a:hover{border-color: #33cbcb !important;}
+.scroll-top, .theme-footer-one .top-footer .footer-information ul li a:hover{background: transparent !important;}
+.footer-list > .title{color: #fff !important;}
+.footer-information > .title{color: #fff !important;}
+.contact-us-section .contact-info p{color: #3e3e3e;font-weight: 600;}
+#contact-form .form-group input, #contact-form .form-group textarea{border: 2px solid #3e3e3e;width: 100%;max-width: 100%;color: #3e3e3e;}
+::placeholder {color: #fff !important;font-weight: 600 !important;}
+.theme-footer-one .top-footer .footer-information p, .theme-footer-one .top-footer .footer-list ul li a, .theme-footer-one .bottom-footer p, .theme-footer-one .bottom-footer ul li a{color: #acb0b7;}
 /*mobile only*/
 @media only screen and (max-width: 600px) {
 	#theme-banner-one .main-wrapper{padding: 45px 0px}
+	.service-minimal .row [class*="col-"]{padding: 0 110px;}
+	.media-w-100{width: 100% !important;}
 }
