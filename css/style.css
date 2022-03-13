@@ -1,5 +1,5 @@
 body{background: #fff;}
-.filter-invert{filter: invert(0);}
+.filter-invert{filter: invert(1);}
 .w-100px{width: 100px !important;}
 .py-100{padding: 100px 0px;}
 .text-light{color: #8b8e92 !important;}
@@ -12,9 +12,11 @@ body{background: #fff;}
 .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6{color: #33cccc;}
 .more-button{background: #232835 !important;border:  2px solid #232835 !important;}
 .text-theme, .number{color: #33cccc !important;}
+.dropdown-toggle{cursor: pointer;}
 .active a, a:hover, .upper-title{color: #33cccc !important;}
 li .contact-us {background: #33cccc !important;color:  #fff;}
 .theme-button-two{background: #232835 !important;}
+.agn-what-we-do{background: #232835 !important;}
 li .contact-us:hover{color: #232835 !important;}
 .contact-address-two{padding: 0px 0 150px}
 #theme-banner-one .main-wrapper .main-title{font-size: 60px;}
@@ -42,4 +44,10 @@ li .contact-us:hover{color: #232835 !important;}
 	#theme-banner-one .main-wrapper{padding: 45px 0px}
 	.service-minimal .row [class*="col-"]{padding: 0 110px;}
 	.media-w-100{width: 100% !important;}
+}
+/*custom*/
+@media only screen and (min-width: 992px) {
+	.navbar .dropdown-menu {
+		min-width: 260px;
+	}
 }
