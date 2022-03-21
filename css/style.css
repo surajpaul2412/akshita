@@ -65,6 +65,7 @@ li .contact-us:hover{color: #232835 !important;}
   font-size:15px;
   color:white;
 }
+/*.desktop-mt--80{margin-top: -80px;}*/
 
 
 
@@ -75,6 +76,7 @@ li .contact-us:hover{color: #232835 !important;}
 	#theme-banner-one .main-wrapper{padding: 45px 0px}
 	.service-minimal .row [class*="col-"]{padding: 0 110px;}
 	.media-w-100{width: 100% !important;}
+  .desktop-mt--80{margin-top: -0% !important;}
 }
 /*custom*/
 @media only screen and (min-width: 992px) {
