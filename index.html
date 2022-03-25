@@ -238,12 +238,12 @@
 				<h2 align="center" class="text-black font-weight-normal pt-4">Our Services</h2>
 
 				<div class="container py-5">					
-					<div class="wrapper">
+					<div class="wrapper container">
 						<div class="carousel">
 							<div>
 								<div class="px-4">
 									<div class="service-bg">
-										<img src="img/services/2.png" class="d-block mx-auto ">
+										<img src="img/services/background-check.png" class="d-block mx-auto">
 									</div>
 									<h6 class="text-black font-weight-bold pt-3">Background <br>Checks</h6>
 									<div class="pt-3 px-3 text-dark font-weight-normal">
@@ -254,7 +254,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/4.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/report.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Case <br>Management</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -265,7 +265,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/6.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/drug-test.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Drug<br/>Testing</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -276,7 +276,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/2.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/credit-card.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Tax Credits <br>& Incentives</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -287,7 +287,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="https://fadv.com/wp-content/uploads/2018/12/fadv-services-icons-analytics-reporting.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/analytics.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Analytics & <br>Reporting</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -298,7 +298,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/2.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/seatbelt.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Driver <br>Services</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -309,7 +309,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/7.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/loupe.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Investigative <br>Research</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -320,7 +320,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/8.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/attorney.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Occupational <br/>Health</h6>
 								<div class="pt-3 px-3 text-text-dark font-weight-normal">
@@ -331,7 +331,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/1.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/assessment.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Background <br/>Screening</h6>
 								<div class="pt-3 px-3">
@@ -342,7 +342,7 @@
 							<div>
 								<div class="px-4">
 								<div class="service-bg">
-									<img src="img/services/3.png" class="d-block mx-auto filter-invert">
+									<img src="img/services/jail.png" class="d-block mx-auto">
 								</div>
 								<h6 class="text-black font-weight-bold pt-3">Criminal Records <br/>Monitoring</h6>
 								<div class="pt-3 px-3">
@@ -496,14 +496,30 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
 		<script>
 			$(document).ready(function(){
-			  $('.carousel').slick({
-				  slidesToShow: 4,
-				  infinite: true,
-				  dots:true,
-				  arrows: true,
-				  autoplay: true,
-   				  autoplaySpeed: 2000
-			  });
+				$(".carousel").slick({
+			        slidesToShow: 4,
+					infinite: true,
+					dots:true,
+					arrows: true,
+					autoplay: true,
+					autoplaySpeed: 2000,
+			        responsive: [
+				        {
+				            breakpoint: 600,
+				            settings: {
+				                slidesToShow: 2,
+				                slidesToScroll: 2
+				            }
+				        },
+				        {
+				            breakpoint: 480,
+				            settings: {
+				                slidesToShow: 1,
+				                slidesToScroll: 1
+				            }
+				        }
+					]
+			    });
 			});
 		</script>
 	</body>

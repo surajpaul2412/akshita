@@ -29,7 +29,7 @@ li .contact-us:hover{color: #232835 !important;}
 .theme-footer-one{background: #002060;}
 .text-black{color: #002060 !important;}
 .service-bg{background: #545454;border-radius: 50%;padding: 3rem;}
-.service-bg img{filter: brightness(0%) invert(1) !important;}
+/*.service-bg img{filter: brightness(0%) invert(1) !important;}*/
 .slick-dots, .slick-arrow, .slick-dots > .slick-active{filter: invert(1);}
 .our-service .service-block .service-title a{color: #002060 !important;}
 .service-title{color: #002060 !important;font-weight: 800 !important;}
