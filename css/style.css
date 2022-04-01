@@ -19,7 +19,7 @@ body{background: #fff;}
 .text-theme, .number{color: #002060 !important;}
 .dropdown-toggle{cursor: pointer;}
 .active a, a:hover, .upper-title{color: #33cccc !important;}
-li .contact-us {background: #33cccc !important;color:  #fff;}
+li .contact-us {background: #33cccc !important;color:  #fff;border-radius: 28px;}
 .theme-button-two{background: #232835 !important;}
 .agn-what-we-do{background: #232835 !important;}
 li .contact-us:hover{color: #232835 !important;}
